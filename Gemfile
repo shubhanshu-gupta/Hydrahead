@@ -5,6 +5,8 @@ gem 'rails', '3.2.16'
 gem 'blacklight'
   gem 'hydra-head', '~> 7.0.1'
 
+gem 'hydra'
+
 group :development, :test do
   gem "jettywrapper"
 end

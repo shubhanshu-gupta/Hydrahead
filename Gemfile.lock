@@ -112,6 +112,7 @@ GEM
     hooks (0.3.6)
       uber (~> 0.0.4)
     htmlentities (4.3.3)
+    hydra (0.24.0)
     hydra-access-controls (7.0.2)
       active-fedora (~> 7.0.0)
       activesupport
@@ -348,6 +349,7 @@ DEPENDENCIES
   database_cleaner
   devise
   devise-guests (~> 0.3)
+  hydra
   hydra-head (~> 7.0.1)
   jettywrapper
   jquery-rails
