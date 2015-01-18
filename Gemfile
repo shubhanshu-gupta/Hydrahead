@@ -5,9 +5,17 @@ gem 'rails', '3.2.16'
 gem 'blacklight'
   gem 'hydra-head', '~> 7.0.1'
 
-
+group :development, :test do
+  gem "jettywrapper"
+end
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+group :test do 
+  gem 'rspec-rails', '>=2.9.0'
+  gem "cucumber-rails"
+  gem "database_cleaner"
+end
 
 gem 'sqlite3'
 
@@ -43,7 +51,7 @@ gem 'jquery-rails'
 
 gem "devise"
 gem "devise-guests", "~> 0.3"
-group :development, :test do
-  gem "rspec-rails"
-  gem "jettywrapper"
-end
+#group :development, :test do
+ # gem "rspec-rails"
+  #gem "jettywrapper"
+#end
