@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.16'
 
+gem 'test-unit'
+
 gem 'blacklight'
   gem 'hydra-head', '~> 7.0.1'
 
