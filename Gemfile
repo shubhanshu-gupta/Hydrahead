@@ -1,13 +1,18 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.16'
+ruby '2.0.0' 
+#gem 'rails', '3.2.16'
+  gem 'rails', '4.2.0'
 
 gem 'test-unit'
 
 gem 'blacklight'
-  gem 'hydra-head', '~> 7.0.1'
+ # gem 'hydra-head', '~> 7.0.1'
 
-gem 'hydra'
+#gem 'hydra'
+
+gem 'active-fedora', '9.0.0.rc3' 
+gem 'hydra-head', '9.0.0.rc3' 
 
 group :development, :test do
   gem "jettywrapper"
@@ -28,8 +33,8 @@ gem 'therubyracer', :platforms => :ruby
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails',   '>= 3.2.3'
+  gem 'coffee-rails', '>= 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
