@@ -12,7 +12,7 @@ class BookMetadata < ActiveFedora::OmDatastream
 
   def prefix
     # set a datastream prefix if you need to namespace terms that might occur in multiple data streams 
-    ""
+    
   end
 
 end
